@@ -1,6 +1,10 @@
 ---
 title: "Welcome to LIF – Laboratory of Forest Inventory"
-format: html
+format:
+  html:
+    toc: true       # enable right-hand TOC
+    toc-depth: 2    # include ## headings like Explore LIF
+    theme: cosmo
 ---
 
 <!-- Top banner image -->

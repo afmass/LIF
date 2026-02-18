@@ -51,8 +51,8 @@ today <- Sys.Date()
 jobs_nancy <- jobs |>
   mutate(
     Location = str_trim(Location),
-    publish_date = as.Date(publish_date),
-    expiry_date  = as.Date(expiry_date)
+    publish_date = dmy(publish_date),
+    expiry_date  = dmy(expiry_date)
   ) |>
   filter(
     str_to_lower(Location) == "nancy",
