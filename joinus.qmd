@@ -40,6 +40,7 @@ For each position, the <strong>reference number</strong> corresponds to the offi
 
 # ----------- Read and filter job offers ---------------
 jobs <- read_delim(
+  # file.path(here::here(), "data/ign_jobs.csv"),
   "data/ign_jobs.csv",
   delim = ";",
   trim_ws = TRUE,
@@ -79,8 +80,10 @@ render_job <- function(j) {
     if (nzchar(header_line))
       tags$p(class = "job-meta", header_line),
 
+    # if (!is.na(j$Description) && nzchar(j$Description))
+    #   tags$p(j$Description),
     if (!is.na(j$Description) && nzchar(j$Description))
-      tags$p(j$Description),
+      tags$p(HTML(j$Description)),
 
     if (!is.na(j$ref) && nzchar(j$ref))
       tags$p(class = "job-ref", tags$em(paste("Reference:", j$ref)))
