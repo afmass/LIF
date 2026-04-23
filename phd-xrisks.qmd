@@ -70,8 +70,8 @@ p {
   border-left: 3px solid #5DCAA5;
   background: #E1F5EE;
   border-radius: 0 8px 8px 0;
-  padding: 1rem 1.25rem;
-  margin: 1.5rem 0;
+  padding: 1rem 1rem;
+  margin: 1rem 0;
   color: #085041;
   font-size: 14px;
 }
@@ -186,7 +186,7 @@ pre.r-pseudo {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin: 1.2rem 0;
+  margin: 0.75rem 0;
 }
 
 .info-card {
@@ -357,7 +357,7 @@ hr.section-divider {
 
 /* ── Accordion details/summary ── */
 details.accordion {
-  margin: 1.5rem 0;
+  margin: 0.45rem 0;
   border: 0.5px solid #d3d1c7;
   border-radius: 10px;
   background: linear-gradient(135deg, #d9ead3 0%, #faeeda 130%);
@@ -699,11 +699,13 @@ Fig. 5 — Simulation of the Fay–Herriot (FH) effect. At low sample sizes, the
 :::
 ::::
 
-The core novelty of this project is the extension of these static models into a **spatio-temporal Bayesian framework**. By leveraging 20 years of French National Forest Inventory history, we can estimate smooth temporal trajectories and spatially structured effects. This allows for the production of posterior distributions at fine resolutions without the need for arbitrary temporal aggregation windows.
+The core novelty of this project is the extension of the Fay–Herriot model into a spatio-temporal Bayesian framework tailored to forest inventory survey data. By leveraging 20 years of French National Forest Inventory data, the model captures smooth temporal dynamics and spatial dependence. This enables the estimation of fine-resolution posterior distributions over complete temporal trajectories, while avoiding reliance on coarse 5-year rolling averages commonly used in forest inventories.
 
 ::: callout-teal
 **This PhD project will evaluate the most efficient ways to borrow strength from NFI data to build fine resolution spatiotemporal maps for forest monitoring.**
 :::
+
+**Computation**
 
 To make this feasible at scale, inference is performed using **Integrated Nested Laplace Approximation (INLA)**. INLA provides fast, deterministic approximations for latent Gaussian models, reducing computation time by several orders of magnitude compared to MCMC. This efficiency makes near-real-time updating of interpretable, high-resolution maps computationally accessible.
 
