@@ -417,7 +417,7 @@ details[open] summary::after {
 </style>
 ```
 
-# Bayesian Small Area Estimation for High-Resolution Monitoring of Forest Disturbances
+# Small Area Estimation for High-Resolution Monitoring of Forest Disturbances with Bayesian Spatiotemporal Smoothing
 **PhD Opportunity**
 
 <!-- ── HEADER / KEYWORDS ── -->
@@ -683,7 +683,7 @@ This is the **small area problem**: a survey design that is robust at the nation
 
 **Borrowing strength with Bayesian small area estimation**
 
-When only 2–3 plots fall within a critical area—a common occurrence in localized forest disturbances—even model-assisted estimators fail to produce stable estimates. This is the hallmark of the small area problem, requiring a strategy that "borrows strength" from other locations and points in time. The Fay–Herriot model provides this framework by linking noisy direct estimates to auxiliary data through a hierarchical structure. Areas with sparse data are informed by the global trend and neighboring units, while data-rich areas remain driven by their own observations.
+When only 2–3 plots fall within a critical area—a common occurrence in localized forest disturbances—even model-assisted estimators fail to produce stable estimates. This is the hallmark of the small area problem, requiring a strategy that "borrows strength" from other locations and points in time. The Fay–Herriot model provides this framework by linking noisy direct estimates to auxiliary data through a hierarchical structure. Areas with sparse data are informed by the global trend and neighboring units, while sample-rich areas remain driven by their own observations.
 
 :::: fig-box
 ```{=html}
@@ -757,7 +757,8 @@ Design-based sampling for forest inventories
 
 Small area estimation
 
--   [Rao, J. N. K., Molina, I. (2015). *Small Area Estimation (2nd ed.)*.](https://www.wiley.com/en-fr/Small+Area+Estimation%2C+2nd+Edition-p-9781118735787)
+-   [SUMMER: Small-Area-Estimation Unit/Area Models and Methods for Estimation in R -- a vignette on generic SAE](https://cran.r-project.org/web/packages/SUMMER/vignettes/small-area-estimation.html) *(a nice tutorial)*
+-   [Rao, J. N. K., Molina, I. (2015). *Small Area Estimation (2nd ed.)*.](https://www.wiley.com/en-fr/Small+Area+Estimation%2C+2nd+Edition-p-9781118735787) *(the most popular textbook)*
 -   [Breidenbach, J., et al. (2018). *Unit-level and area-level small area estimation under heteroscedasticity using digital aerial photogrammetry data*.](https://doi.org/10.1016/j.rse.2018.04.028)
 
 Spatial and temporal smoothing
@@ -785,10 +786,10 @@ Disturbance detection
 
 ------------------------------------------------------------------------
 
-IGN (a French governmental agency) ***requires all applications to be submitted through their official online system***. Applications sent via email will not be considered.
+IGN (a French governmental agency) ***requires all applications to be submitted through their official online system***. Applications sent via email will not be considered.  The official reference is not yet available but will be posted very soon.
 
 1.  Visit the [IGN job offers page](https://www.ign.fr/nous-rejoindre/offres-emploi).
-2.  Locate the offer with the reference **Réf \###**.
+2.  Locate the offer with the proper reference \# **(available soon)**.
 3.  Click **"Je postule"** (French for "I apply") to begin submission process.
 
 ***Note:*** The IGN application portal is in French only. If you need assistance, consider using a browser translation tool or contacting us directly for guidance.
