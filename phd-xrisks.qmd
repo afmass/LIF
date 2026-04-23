@@ -1,5 +1,5 @@
 ---
-# title: "Small Area Estimation for High-Resolution Monitoring of Forest Disturbances"
+# title: "Bayesian Spatiotemporal Small Area Estimation for Forest Disturbance Monitoring"
 # subtitle: "PhD Opportunity"
 toc: false
 number-sections: false
@@ -417,7 +417,7 @@ details[open] summary::after {
 </style>
 ```
 
-# Small Area Estimation for High-Resolution Monitoring of Forest Disturbances with Bayesian Spatiotemporal Smoothing
+# Bayesian Spatiotemporal Small Area Estimation for Forest Disturbance Monitoring
 **PhD Opportunity**
 
 <!-- ── HEADER / KEYWORDS ── -->
