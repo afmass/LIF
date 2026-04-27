@@ -418,6 +418,7 @@ details[open] summary::after {
 ```
 
 # Bayesian Spatiotemporal Small Area Estimation for Forest Disturbance Monitoring
+
 **PhD Opportunity**
 
 <!-- ── HEADER / KEYWORDS ── -->
@@ -786,19 +787,19 @@ Disturbance detection
 3.  A list of relevant coursework, or alternatively an academic transcript for the last years of study (unofficial versions are accepted)
 4.  Contact details of two academic or professional references (name, affiliation, email)
 
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- IGN (a French governmental agency) ***requires all applications to be submitted through their official online system***. Applications sent via email will not be considered. The official reference is not yet available but will be posted very soon. -->
+
+<!-- 1.  Visit the [IGN job offers page](https://www.ign.fr/nous-rejoindre/offres-emploi). -->
+<!-- 2.  Locate the offer with the proper reference \# **(available soon)**. -->
+<!-- 3.  Click **"Je postule"** (French for "I apply") to begin submission process. -->
+
+<!-- ***Note:*** The IGN application portal is in French only. If you need assistance, consider using a browser translation tool or contacting us directly for guidance. -->
+
 ------------------------------------------------------------------------
 
-IGN (a French governmental agency) ***requires all applications to be submitted through their official online system***. Applications sent via email will not be considered.  The official reference is not yet available but will be posted very soon.
-
-1.  Visit the [IGN job offers page](https://www.ign.fr/nous-rejoindre/offres-emploi).
-2.  Locate the offer with the proper reference \# **(available soon)**.
-3.  Click **"Je postule"** (French for "I apply") to begin submission process.
-
-***Note:*** The IGN application portal is in French only. If you need assistance, consider using a browser translation tool or contacting us directly for guidance.
-
-------------------------------------------------------------------------
-
-**For any questions**, applicants are highly encouraged to contact:
+Application instructions forthcoming.  **For any questions**, applicants are highly encouraged to contact:
 
 **Alexander Massey**\
 [alexander.massey\@ign.fr](mailto:alexander.massey@ign.fr)
